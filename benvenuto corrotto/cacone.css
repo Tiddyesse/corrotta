@@ -1,0 +1,37 @@
+
+
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+/* Il contenitore principale */
+div#immagini {
+    width: 75%;
+    margin: 0 auto;
+    position: relative; /* Importante per il posizionamento assoluto */
+}
+
+/* Immagine di sfondo */
+img#immagine {
+    width: 100%; /* 100% della larghezza del div genitore */
+    height: auto;
+    display: block;
+    
+}
+
+/* Link posizionato sopra */
+a#pulsante {
+    position: absolute;
+    top: 97%; /* Aggiusta come necessario */
+    left: 85%; /* Aggiusta come necessario */
+    width: 7%; /* Dimensione relativa al contenitore */
+    height: 2%;
+}
+
+/* Immagine dentro il link */
+a#pulsante img {
+    width: 100%; /* 100% della larghezza del link */
+    height: 100%;
+    opacity: 0;
+}
